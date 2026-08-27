@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://valley-soft.github.io/vaultica/sitemap.xml
