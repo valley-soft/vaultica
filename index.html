@@ -23,6 +23,7 @@
       <span>Vaultica</span>
     </a>
     <nav class="primary-nav" aria-label="Primary navigation">
+      <a href="#tour">Product tour</a>
       <a href="#workspace">Workspace</a>
       <a href="#privacy">Privacy</a>
       <a href="support.html">Support</a>
@@ -34,9 +35,9 @@
   <main id="main">
     <section class="hero shell">
       <div class="hero-copy">
-        <div class="eyebrow"><span></span> Built for Windows by ValleySoft</div>
-        <h1>Everything worth remembering, <em>in its place.</em></h1>
-        <p class="hero-lead">Vaultica brings flexible notes, always-near desktop stickies, and protected credentials into one calm, local-first workspace.</p>
+        <div class="eyebrow"><span></span> A ValleySoft Windows application</div>
+        <h1>Notes, stickies, and vault items. <em>One local workspace.</em></h1>
+        <p class="hero-lead">Write on the canvas, switch to a focused list, pin a note beside your work, or open a protected vault item—without leaving Vaultica.</p>
         <div class="hero-actions" id="availability">
           <span class="button primary is-disabled" aria-label="Microsoft Store release coming soon">Microsoft Store · Coming soon</span>
           <a class="button secondary" href="support.html">Explore support</a>
@@ -44,36 +45,49 @@
         <p class="microcopy">Windows 10 and Windows 11 · Version 1.0.0</p>
       </div>
 
-      <div class="product-scene" aria-label="Illustration of the Vaultica workspace">
+      <div class="product-scene" aria-label="Vaultica in use">
         <div class="scene-glow"></div>
-        <div class="app-frame">
-          <div class="app-bar">
-            <div class="app-brand"><img src="assets/icon-64x64.png" alt="" width="20" height="20"><span>Vaultica</span></div>
-            <div class="bar-actions"><i></i><i></i><i></i><i></i><b></b><b></b></div>
+        <div class="screen-stage" data-slideshow>
+          <div class="screen-meta"><span class="screen-live"><i></i> Actual Vaultica capture</span><span data-slide-count>01 / 06</span></div>
+          <div class="screen-viewport">
+            <figure class="screen-slide is-active" data-slide="0">
+              <img src="assets/screens/vaultica-create.png" alt="Vaultica creation palette over the Canvas workspace" loading="eager">
+              <figcaption><b>Create</b><span>Start a note, Desktop Sticky, password item, template, screenshot, or OCR capture.</span></figcaption>
+            </figure>
+            <figure class="screen-slide" data-slide="1">
+              <img src="assets/screens/vaultica-search.png" alt="Vaultica universal search showing quick actions" loading="lazy">
+              <figcaption><b>Universal search</b><span>Search notes and actions from one keyboard-friendly surface.</span></figcaption>
+            </figure>
+            <figure class="screen-slide" data-slide="2">
+              <img src="assets/screens/vaultica-settings.png" alt="Vaultica Settings with General, Appearance, Security, Data and Recovery, and About sections" loading="lazy">
+              <figcaption><b>Control Room</b><span>Everyday choices first; appearance, security, recovery, and product details nearby.</span></figcaption>
+            </figure>
+            <figure class="screen-slide" data-slide="3">
+              <img src="assets/screens/vaultica-guide.png" alt="Vaultica Welcome Guide with a five-step start" loading="lazy">
+              <figcaption><b>Welcome Guide</b><span>Start with five essentials, then discover advanced tools when needed.</span></figcaption>
+            </figure>
+            <figure class="screen-slide" data-slide="4">
+              <img src="assets/screens/vaultica-menu.png" alt="Vaultica application menu with reading, focus, archive, import, help, and settings actions" loading="lazy">
+              <figcaption><b>Application menu</b><span>Frequent commands stay compact and include visible keyboard shortcuts.</span></figcaption>
+            </figure>
+            <figure class="screen-slide" data-slide="5">
+              <img src="assets/screens/vaultica-canvas.png" alt="Vaultica empty Canvas in light mode with first-use guidance" loading="lazy">
+              <figcaption><b>Canvas onboarding</b><span>A quiet starting point explains how to create the first note without blocking the workspace.</span></figcaption>
+            </figure>
           </div>
-          <div class="canvas-dots"></div>
-          <article class="demo-note note-one">
-            <div class="note-chrome"><span class="swatch active"></span><span class="swatch"></span><span class="swatch"></span><span class="swatch"></span><div></div><b></b><b></b></div>
-            <h3>Launch plan</h3>
-            <p>Review Store assets<br>Verify the installer<br>Publish release notes</p>
-            <footer><span>3 items</span><strong>Today</strong></footer>
-          </article>
-          <article class="demo-note note-two">
-            <div class="note-chrome"><span class="key-dot">◇</span><div></div><b></b><b></b></div>
-            <small>VAULT ITEM</small>
-            <h3>Design account</h3>
-            <p>Protected locally</p>
-            <footer><span class="health-dot"></span><strong>Strong</strong></footer>
-          </article>
-          <article class="demo-sticky">
-            <div class="sticky-top"><span>STICKY</span><b>↩ Vaultica</b></div>
-            <h3>Call at 2:30</h3>
-            <p>Keep the brief nearby.</p>
-          </article>
-          <div class="organizer-card">
-            <span>ORGANIZER</span><strong>Today</strong><b>4</b>
-            <div></div><div></div><div></div>
+          <div class="screen-controls" aria-label="Product capture controls">
+            <button class="screen-arrow" type="button" data-slide-prev aria-label="Previous screenshot">&#8249;</button>
+            <div class="screen-dots" role="tablist" aria-label="Vaultica screenshots">
+              <button class="is-active" type="button" data-slide-to="0" role="tab" aria-selected="true" aria-label="Show creation palette"></button>
+              <button type="button" data-slide-to="1" role="tab" aria-selected="false" aria-label="Show universal search"></button>
+              <button type="button" data-slide-to="2" role="tab" aria-selected="false" aria-label="Show settings"></button>
+              <button type="button" data-slide-to="3" role="tab" aria-selected="false" aria-label="Show welcome guide"></button>
+              <button type="button" data-slide-to="4" role="tab" aria-selected="false" aria-label="Show application menu"></button>
+              <button type="button" data-slide-to="5" role="tab" aria-selected="false" aria-label="Show Canvas onboarding"></button>
+            </div>
+            <button class="screen-arrow" type="button" data-slide-next aria-label="Next screenshot">&#8250;</button>
           </div>
+          <p class="screen-footnote">Captured from the packaged Windows application. Background content is blurred by Vaultica itself.</p>
         </div>
       </div>
     </section>
@@ -84,30 +98,64 @@
       <div><strong>Windows-native</strong><span>Capture, OCR, and stickies</span></div>
     </section>
 
+    <section class="section shell product-tour" id="tour">
+      <div class="section-heading tour-heading">
+        <span class="kicker">See the real application</span>
+        <h2>Not a mockup.<br><em>This is Vaultica.</em></h2>
+        <p>These are direct captures from the packaged Windows app. Open any screen to inspect the interface at full size.</p>
+      </div>
+      <div class="capture-grid">
+        <button class="capture-card capture-wide" type="button" data-lightbox="assets/screens/vaultica-create.png" aria-label="Open creation palette screenshot">
+          <img src="assets/screens/vaultica-create.png" alt="Vaultica creation palette" loading="lazy">
+          <span><b>Choose the right shape</b><small>One entry point for notes, stickies, protected items, templates, screenshots, and OCR.</small></span>
+        </button>
+        <button class="capture-card" type="button" data-lightbox="assets/screens/vaultica-search.png" aria-label="Open universal search screenshot">
+          <img src="assets/screens/vaultica-search.png" alt="Vaultica universal search" loading="lazy">
+          <span><b>Search and act</b><small>Content, settings, and commands share one local search surface.</small></span>
+        </button>
+        <button class="capture-card" type="button" data-lightbox="assets/screens/vaultica-menu.png" aria-label="Open application menu screenshot">
+          <img src="assets/screens/vaultica-menu.png" alt="Vaultica application menu" loading="lazy">
+          <span><b>Keep commands predictable</b><small>Reading, focus, archive, import, help, and settings stay in a compact menu.</small></span>
+        </button>
+        <button class="capture-card" type="button" data-lightbox="assets/screens/vaultica-settings.png" aria-label="Open Settings screenshot">
+          <img src="assets/screens/vaultica-settings.png" alt="Vaultica Control Room settings" loading="lazy">
+          <span><b>Configure without hunting</b><small>General, appearance, security, recovery, and product information use one consistent shell.</small></span>
+        </button>
+        <button class="capture-card capture-wide" type="button" data-lightbox="assets/screens/vaultica-guide.png" aria-label="Open Welcome Guide screenshot">
+          <img src="assets/screens/vaultica-guide.png" alt="Vaultica Welcome Guide" loading="lazy">
+          <span><b>Start simple</b><small>The guide teaches a five-step foundation and leaves deeper tools available when useful.</small></span>
+        </button>
+        <button class="capture-card capture-wide" type="button" data-lightbox="assets/screens/vaultica-canvas.png" aria-label="Open Canvas onboarding screenshot">
+          <img src="assets/screens/vaultica-canvas.png" alt="Vaultica empty Canvas in light mode" loading="lazy">
+          <span><b>Begin without a manual</b><small>The empty Canvas points to the first useful actions, then gets out of the way once notes exist.</small></span>
+        </button>
+      </div>
+    </section>
+
     <section class="section shell" id="workspace">
       <div class="section-heading">
-        <span class="kicker">One home, three ways to work</span>
-        <h2>Simple on day one.<br><em>Capable when you need more.</em></h2>
-        <p>Start with a note. Advanced tools stay close without crowding the everyday flow.</p>
+        <span class="kicker">The actual workflow</span>
+        <h2>Three surfaces.<br><em>One local workflow.</em></h2>
+        <p>Each surface is optional. Use the canvas for thinking, the list for finding, and the vault for sensitive records.</p>
       </div>
       <div class="three-up">
         <article class="feature-card canvas-card">
           <div class="feature-number">01</div>
-          <div class="mini-canvas"><i></i><i></i><i></i></div>
+          <div class="feature-proof"><span>Implemented in 1.0.0</span><strong>Canvas ↔ List</strong><small>Choose the surface that fits the moment.</small></div>
           <h3>Spatial notes</h3>
           <p>Arrange ideas freely on an infinite canvas, or switch to a focused list when structure matters more.</p>
           <ul><li>Rich text and templates</li><li>Organizer and smart groups</li><li>History, reminders, and exports</li></ul>
         </article>
         <article class="feature-card sticky-card">
           <div class="feature-number">02</div>
-          <div class="mini-sticky"><b>Desktop sticky</b><span>Bring this note back to Vaultica ↩</span></div>
+          <div class="feature-proof"><span>Windows integration</span><strong>Desktop Sticky</strong><small>Send a regular note out, then return it to Vaultica.</small></div>
           <h3>Desktop stickies</h3>
           <p>Send a note to the desktop, keep it available beside your work, then return it to the workspace.</p>
           <ul><li>Synced with its Vaultica note</li><li>Quick actions for useful content</li><li>Designed for mouse, touch, and touchpad</li></ul>
         </article>
         <article class="feature-card vault-card">
           <div class="feature-number">03</div>
-          <div class="mini-vault"><span>◆</span><div><b>Protected item</b><small>Encrypted locally</small></div><i></i></div>
+          <div class="feature-proof"><span>Protected workspace</span><strong>Password Vault</strong><small>Structured items, health checks, and TOTP.</small></div>
           <h3>Password vault</h3>
           <p>Store logins, payment cards, identities, licenses, secure notes, and more in structured vault items.</p>
           <ul><li>Password health and generator</li><li>Authenticator secrets and custom fields</li><li>Clipboard auto-clear controls</li></ul>
@@ -119,8 +167,8 @@
       <div class="shell privacy-grid">
         <div class="privacy-orbit" aria-hidden="true"><span></span><i></i><b></b><em></em><strong>Local</strong></div>
         <div class="privacy-copy">
-          <span class="kicker">Privacy by architecture</span>
-          <h2>Your workspace is yours.</h2>
+          <span class="kicker">What “local-first” means here</span>
+          <h2>Your data stays on your Windows device.</h2>
           <p>Vaultica currently has no user accounts, advertising, analytics SDKs, or cloud synchronization. Notes, managed attachments, OCR, and backups stay on the Windows device or in folders you select.</p>
           <div class="privacy-points">
             <div><b>Protected content</b><span>PIN-protected note text and password entries are encrypted before persistence.</span></div>
@@ -149,9 +197,9 @@
 
     <section class="closing shell">
       <div>
-        <span class="kicker">Vaultica for Windows</span>
-        <h2>Make space for what matters.</h2>
-        <p>One private workspace for the notes you write, the reminders you need nearby, and the credentials you protect.</p>
+        <span class="kicker">Vaultica 1.0.0</span>
+        <h2>A practical home for everyday information.</h2>
+        <p>Read the support notes, review the privacy policy, and follow the release as Vaultica moves toward the Microsoft Store.</p>
       </div>
       <div class="closing-actions">
         <span class="button primary is-disabled">Microsoft Store · Coming soon</span>
@@ -159,6 +207,11 @@
       </div>
     </section>
   </main>
+
+  <dialog class="capture-lightbox" aria-label="Vaultica screenshot viewer">
+    <button type="button" class="lightbox-close" aria-label="Close screenshot">Close</button>
+    <img src="" alt="Enlarged Vaultica application screenshot">
+  </dialog>
 
   <footer class="site-footer shell">
     <div class="footer-brand"><img src="assets/icon-64x64.png" width="30" height="30" alt=""><div><strong>Vaultica</strong><span>A ValleySoft product</span></div></div>
